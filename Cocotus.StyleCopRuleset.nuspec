@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Cocotus.StyleCopRuleset</id>
+    <version>1.0.0</version>
+    <authors>Cocotus</authors>
+    <owners>Cocotus</owners>
+    <projectUrl>https://github.com/YauheniyBaihot/company.standart.stylecop</projectUrl>
+    <license type="expression">MIT</license>
+	<iconUrl>https://cocotus.net/images/Avatare/Rune_of_Punishment%2052x80.gif</iconUrl>
+    <description>Enforces recommended rulesets from Microsoft and tweaked StyleCopAnalyzers Rules for Visual Studio project (like private fields must begin with underscore)</description>
+    <dependencies>	
+            <dependency id="StyleCop.Analyzers" version="1.1.1-beta.61" />
+            <dependency id="Microsoft.CodeAnalysis.FxCopAnalyzers" version="2.6.3" />
+    </dependencies>
+  </metadata>
+    <files>
+      <file src="stylecop.json" />
+      <file src="Cocotus.StyleCopRuleset.ruleset" />
+      <file src="Cocotus.StyleCopRuleset.props" target="build" />
+    </files>
+</package>

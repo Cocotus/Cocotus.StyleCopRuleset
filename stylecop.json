@@ -1,0 +1,27 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DotNetAnalyzers/StyleCopAnalyzers/master/StyleCop.Analyzers/StyleCop.Analyzers/Settings/stylecop.schema.json",
+
+  "settings": {
+    "documentationRules": {
+      "companyName": "Cocotus",
+
+      "copyrightText": "  Copyright (c) {companyName} 2019. All rights reserved.",
+
+      "documentationCulture": "de-DE",
+
+      "documentInterfaces": true,
+
+      "documentExposedElements": true,
+
+      "documentPrivateElements": true,
+
+      "documentInternalElements": true,
+
+      "documentPrivateFields": false
+    },
+
+    "orderingRules": {
+      "usingDirectivesPlacement": "outsideNamespace"
+    }
+  }
+}
